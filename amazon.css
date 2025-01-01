@@ -11,6 +11,7 @@
     color: white;
     display: flex;
     align-items: center;
+    /* position: fixed; */
     /* justify-content: space-evenly; */
   
 }
@@ -22,7 +23,7 @@
 }
 
 .logo{
-    background-image:url(amazon_logo.png);
+    background-image:url(logo_amazon.webp);
     background-size: cover;
     height: 60px;
 }
@@ -96,6 +97,10 @@
     transform: scale(1);
 }
 
+.search-bar:hover{
+    border: 2px solid orange;
+}
+
 .search-button{
     height: 40px;
     width: 50px;
@@ -165,3 +170,68 @@
     align-items: center;
     justify-content: center;
 }
+
+/** for mini nav bar **/
+.panel{
+    height: 40px;
+    width: 100%;
+    background-color:#2b4141;
+    /* position: relative;
+    top: 60px; */
+    color: white;
+    display: flex;
+
+}
+
+.panel-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.panel p{
+    display: inline;
+   
+}
+
+.panel-options{
+    width: 500px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 14px;
+
+  
+}
+
+/** for hero section **/
+ .hero_section{
+    height: 350px;
+    background-image: url(hero_sec.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  
+ }
+
+ .hero_message{
+    
+    height: 40px ;
+    width:80% ;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+ }
+
+ .body_boxes{
+    background-color: rgb(228, 207, 219);
+    height: 900px;
+ }
+
+
