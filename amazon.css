@@ -11,7 +11,7 @@
     color: white;
     display: flex;
     align-items: center;
-    /* position: fixed; */
+    position: fixed;
     /* justify-content: space-evenly; */
   
 }
@@ -170,6 +170,11 @@
     align-items: center;
     justify-content: center;
 }
+/** for invisible div **/
+.invisible-div{
+    height: 60px;
+    visibility: hidden;
+}
 
 /** for mini nav bar **/
 .panel{
@@ -208,7 +213,7 @@
 
 /** for hero section **/
  .hero_section{
-    height: 350px;
+    height: 280px;
     background-image: url(hero_sec.jpg);
     background-size: cover;
     display: flex;
@@ -232,6 +237,42 @@
  .body_boxes{
     background-color: rgb(228, 207, 219);
     height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .boxes{
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    
+ }
+
+ .box1{
+    height: 420px;
+    width:23% ;
+    border: 2px solid black;
+ 
+ }
+ .box2{
+    height: 420px;
+    width:23% ;
+    border: 2px solid black;
+ }
+ .box3{
+    height: 420px;
+    width:23% ;
+    border: 2px solid black;
+ }
+ .box4{
+    
+    height: 420px;
+    width:23% ;
+    border: 2px solid black;
+
  }
 
 
